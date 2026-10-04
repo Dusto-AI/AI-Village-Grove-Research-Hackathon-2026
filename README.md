@@ -27,6 +27,36 @@ at 52 frozen moments.
   harmless output, and one provider's safety filter blinded the analyst
   during security work.
 
+**Try it in your browser (no install):**
+[**the explorer**](https://dusto-ai.github.io/AI-Village-Grove-Research-Hackathon-2026/explorer_public.html)
+shows every frozen moment, every question, what each analyst answered and
+how it scored. Its **"Try it yourself"** tab lets you take the same test.
+
+## Key terms
+
+| Term | Meaning |
+|---|---|
+| **Frozen moment** | A time cut in the AI Village record. The analyst sees only what existed before it; the answers come from what happened after. |
+| **Levels L1 / L2 / L3** | SAGAT's three question levels: **L1 perception** (what's going on: who is active, what each agent is doing), **L2 comprehension** (what it means: who is working with whom), **L3 projection** (what happens next: will X post in the next 30 minutes, who speaks next). 11 questions per moment in total. |
+| **View** | What the analyst is given. `none` = only the agent list (pure guessing). `dashboard` = the original status board. `dashboard2` = the **improved** board (adds who-talks-to-whom). `dashboard3` = board plus each agent's own plans. `raw` = searches the records itself. `self` = one agent's memory file only. Chat feed = `custom-minimal_dashboard`, the example plug-in. Full table: [HARNESS.md](docs/HARNESS.md#how-a-test-works). |
+| **Score** | 0 = wrong, 1 = right, with partial credit on "which agents…" questions. Averaged over questions, then over moments. |
+| **"Nothing changes" rule** | The no-intelligence baseline: assume the next couple of hours look like the last half hour. Perfect on L1/L2 by construction (it reads the record correctly); on L3 it is the bar any real foresight must beat. |
+| **Analysts** | "Cheap" = DeepSeek V4 Flash; "strong" = Claude Sonnet 5.5. Both via OpenRouter. |
+| **Sets** | `v1` = first 26 moments; `v2` = 26 fresh moments used to retest the improved board; `v2r2`/`v2r3` = reruns of `v2` to measure noise; `v2plant3` = the planted-misreport test. |
+
+## How to read the figures
+
+| Figure | What it shows | How to read it |
+|---|---|---|
+| [fig_design_levels.svg](docs/fig_design_levels.svg) | Each view's score at L1/L2/L3, first 26 moments | Dots further right are better. Bars are margins of error; overlapping bars mean the difference may be luck. The orange line is the "nothing changes" rule. |
+| [fig_fresh_levels.svg](docs/fig_fresh_levels.svg) | Same, on the 26 fresh moments, cheap vs strong analyst | As above. Compare `dashboard` with `dashboard2` on L2 to see the improvement from the fix. |
+| [fig_forecast_errors.svg](docs/fig_forecast_errors.svg) | Wrong answers on the two "will it happen?" forecasts | Blue (left) = said "no" but it happened; red (right) = said "yes" but it didn't. Mostly blue = analysts bet on activity stopping. |
+| [fig_planted_v2plant3.svg](docs/supplement/fig_planted_v2plant3.svg) | Planted misreports caught, by view | Higher catches with fewer false alarms is better. |
+| [Supplement figures](docs/supplement/README.md) | Noise between reruns, forecast horizon, swarm size | Each supplement page explains its own figure. |
+
+The one-minute check below prints the same numbers as a table: one row per
+set × analyst × view, with the average L1/L2/L3 score.
+
 ## Where to start
 
 | If you want… | Read |
@@ -50,12 +80,17 @@ library:
 python3 scripts/rescore_public.py
 ```
 
-To browse every frozen moment, answer and chart, open
-[`docs/explorer_public.html`](docs/explorer_public.html) in a browser. It
-works offline. It withholds the dataset's own text, so to see exactly what
-each analyst was shown, build the full explorer (below).
+To browse every frozen moment, answer and chart, open the
+[explorer](https://dusto-ai.github.io/AI-Village-Grove-Research-Hackathon-2026/explorer_public.html)
+(or `docs/explorer_public.html` locally; it works offline). It withholds
+the dataset's own text, so to see exactly what each analyst was shown,
+build the full explorer (below).
 
 ## Replicate it (needs dataset access)
+
+Needs Python 3.12+, [uv](https://docs.astral.sh/uv/), the AI Village export
+from Hugging Face, and an OpenRouter key in `$OPENROUTER_API_KEY` (setup
+details in [HARNESS.md](docs/HARNESS.md#setup)).
 
 ```bash
 # once: raw Hugging Face export -> local databases in ./data (git-ignored)
