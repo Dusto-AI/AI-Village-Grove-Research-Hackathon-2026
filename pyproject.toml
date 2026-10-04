@@ -1,0 +1,9 @@
+[project]
+name = "swarm-sagat"
+version = "0.1.0"
+description = "SAGAT-style situation-awareness probes for agent swarms (AI Village dataset)"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = [
+    "anthropic>=1.11.0",
+]

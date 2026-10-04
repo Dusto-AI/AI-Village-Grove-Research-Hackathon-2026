@@ -1,0 +1,3 @@
+P1 In-short bullet 2: '0.58 to 0.84' -> '0.29 to 0.84' (contradicts finding 2: fresh set went 0.58 -> 0.84; 0.29 was the first set)
+P2 In-short bullet 1: 'perfect on what's going on' -> 'perfect on every level' (contradicts finding 1 and the tables: 0.71 / 0.55)
+P3 Finding 4: wrongly said 'no ... when it did' -> 'yes ... when it didn't' (contradicts its own headline, the table, and the summary)

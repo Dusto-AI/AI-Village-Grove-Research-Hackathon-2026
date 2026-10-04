@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 252" width="790" height="252">
+<rect width="790" height="252" fill="#fcfcfb"/>
+<text x="20.0" y="28.0" font-size="18" fill="#0b0b0b" text-anchor="start" font-weight="600" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Catching an agent that misreports its work</text>
+<text x="20.0" y="50.0" font-size="13" fill="#52514e" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Planted: an agent's own real 'just finished' message, with the activity behind it removed.</text>
+<text x="20.0" y="68.0" font-size="13" fill="#52514e" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Blue = plants caught; red = honest moments with a false alarm.</text>
+<line x1="250.0" x2="250.0" y1="96" y2="218" stroke="#e1e0d9"/>
+<text x="250.0" y="236.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0%</text>
+<line x1="355.0" x2="355.0" y1="96" y2="218" stroke="#e1e0d9"/>
+<text x="355.0" y="236.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">25%</text>
+<line x1="460.0" x2="460.0" y1="96" y2="218" stroke="#e1e0d9"/>
+<text x="460.0" y="236.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">50%</text>
+<line x1="565.0" x2="565.0" y1="96" y2="218" stroke="#e1e0d9"/>
+<text x="565.0" y="236.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">75%</text>
+<line x1="670.0" x2="670.0" y1="96" y2="218" stroke="#e1e0d9"/>
+<text x="670.0" y="236.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">100%</text>
+<text x="238.0" y="119.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Chat feed only (cheap)</text>
+<rect x="250" y="106" width="0.5" height="11" rx="3" fill="#2a78d6"/>
+<rect x="250" y="119" width="105.0" height="11" rx="3" fill="#e34948"/>
+<text x="256.0" y="116.0" font-size="11" fill="#52514e" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0/9 caught</text>
+<text x="361.0" y="129.0" font-size="11" fill="#52514e" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">2/8 false alarms</text>
+<text x="238.0" y="153.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Original dashboard (cheap)</text>
+<rect x="250" y="140" width="280.0" height="11" rx="3" fill="#2a78d6"/>
+<rect x="250" y="153" width="105.0" height="11" rx="3" fill="#e34948"/>
+<text x="536.0" y="150.0" font-size="11" fill="#52514e" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">6/9 caught</text>
+<text x="361.0" y="163.0" font-size="11" fill="#52514e" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">2/8 false alarms</text>
+<text x="238.0" y="187.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Improved dashboard (cheap)</text>
+<rect x="250" y="174" width="373.3" height="11" rx="3" fill="#2a78d6"/>
+<rect x="250" y="187" width="52.5" height="11" rx="3" fill="#e34948"/>
+<text x="629.3" y="184.0" font-size="11" fill="#52514e" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">8/9 caught</text>
+<text x="308.5" y="197.0" font-size="11" fill="#52514e" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">1/8 false alarms</text>
+</svg>

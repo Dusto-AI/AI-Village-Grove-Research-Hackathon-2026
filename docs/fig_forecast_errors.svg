@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 910 262" width="910" height="262">
+<rect width="910" height="262" fill="#fcfcfb"/>
+<text x="20.0" y="30.0" font-size="18" fill="#0b0b0b" text-anchor="start" font-weight="600" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Analysts bet on activity stopping, and history panels fix that</text>
+<text x="20.0" y="52.0" font-size="13" fill="#52514e" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Wrong answers on the two yes/no forecasts (“will agent X post in 30 min?”, “will a human post in 2 h?”).</text>
+<text x="632.0" y="78.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">← wrongly said “no, it won't happen”</text>
+<text x="648.0" y="78.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">wrongly said “yes” →</text>
+<line x1="640" x2="640" y1="86" y2="252" stroke="#c3c2b7"/>
+<text x="390.0" y="111.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Original dashboard, cheap · first 26</text>
+<rect x="431.9" y="98" width="207.1" height="18" rx="4" fill="#2a78d6"/>
+<rect x="641.0" y="98" width="38.8" height="18" rx="4" fill="#e34948"/>
+<text x="426.9" y="111.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">16</text>
+<text x="684.8" y="111.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">3</text>
+<text x="390.0" y="141.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Original dashboard, strong · first 26</text>
+<rect x="431.9" y="128" width="207.1" height="18" rx="4" fill="#2a78d6"/>
+<rect x="641.0" y="128" width="12.9" height="18" rx="4" fill="#e34948"/>
+<text x="426.9" y="141.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">16</text>
+<text x="658.9" y="141.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">1</text>
+<text x="390.0" y="171.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Original dashboard, cheap · fresh 26</text>
+<rect x="419.0" y="158" width="220.0" height="18" rx="4" fill="#2a78d6"/>
+<rect x="641.0" y="158" width="38.8" height="18" rx="4" fill="#e34948"/>
+<text x="414.0" y="171.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">17</text>
+<text x="684.8" y="171.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">3</text>
+<text x="390.0" y="201.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Improved dashboard, cheap · fresh 26</text>
+<rect x="522.5" y="188" width="116.5" height="18" rx="4" fill="#2a78d6"/>
+<rect x="641.0" y="188" width="90.6" height="18" rx="4" fill="#e34948"/>
+<text x="517.5" y="201.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">9</text>
+<text x="736.6" y="201.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">7</text>
+<text x="390.0" y="231.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Improved dashboard, strong · fresh 26</text>
+<rect x="561.4" y="218" width="77.6" height="18" rx="4" fill="#2a78d6"/>
+<rect x="641.0" y="218" width="64.7" height="18" rx="4" fill="#e34948"/>
+<text x="556.4" y="231.0" font-size="12" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">6</text>
+<text x="710.7" y="231.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">5</text>
+</svg>

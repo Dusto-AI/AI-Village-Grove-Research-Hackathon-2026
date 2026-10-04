@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 374" width="1100" height="374">
+<rect width="1100" height="374" fill="#fcfcfb"/>
+<text x="20.0" y="30.0" font-size="18" fill="#0b0b0b" text-anchor="start" font-weight="600" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Fresh 26 moments: the fixed dashboard helps understanding, not foresight</text>
+<text x="20.0" y="52.0" font-size="13" fill="#52514e" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Score by situation-awareness level (0 = always wrong, 1 = always right). Cheap = DeepSeek V4 Flash, strong = Claude Sonnet 5.5.</text>
+<text x="286.0" y="137.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Guessing (cheap model)</text>
+<text x="286.0" y="167.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Original dashboard (cheap)</text>
+<text x="286.0" y="197.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Improved dashboard (cheap)</text>
+<text x="286.0" y="227.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Improved + agents' plans (cheap)</text>
+<text x="286.0" y="257.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Improved dashboard (strong)</text>
+<text x="286.0" y="287.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Improved + agents' plans (strong)</text>
+<text x="286.0" y="317.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif">Chat feed only (cheap; the template)</text>
+<text x="300.0" y="102.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600" font-family="system-ui, -apple-system, Segoe UI, sans-serif">What's going on</text>
+<line x1="300.0" x2="300.0" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="300.0" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0</text>
+<line x1="357.5" x2="357.5" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="357.5" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0.25</text>
+<line x1="415.0" x2="415.0" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="415.0" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0.5</text>
+<line x1="472.5" x2="472.5" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="472.5" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0.75</text>
+<line x1="530.0" x2="530.0" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="530.0" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">1</text>
+<line x1="530.0" x2="530.0" y1="114" y2="340" stroke="#eb6834" stroke-width="2"/>
+<line x1="376.2" x2="409.6" y1="133.0" y2="133.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="392.9" cy="133.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="530.0" x2="530.0" y1="163.0" y2="163.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="530.0" cy="163.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="530.0" x2="530.0" y1="193.0" y2="193.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="530.0" cy="193.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="530.0" x2="530.0" y1="223.0" y2="223.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="530.0" cy="223.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="530.0" x2="530.0" y1="253.0" y2="253.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="530.0" cy="253.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="529.7" x2="530.0" y1="283.0" y2="283.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="529.9" cy="283.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="463.6" x2="494.9" y1="313.0" y2="313.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="479.2" cy="313.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="570.0" y="102.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600" font-family="system-ui, -apple-system, Segoe UI, sans-serif">What it means</text>
+<line x1="570.0" x2="570.0" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="570.0" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0</text>
+<line x1="627.5" x2="627.5" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="627.5" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0.25</text>
+<line x1="685.0" x2="685.0" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="685.0" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0.5</text>
+<line x1="742.5" x2="742.5" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="742.5" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0.75</text>
+<line x1="800.0" x2="800.0" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="800.0" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">1</text>
+<line x1="800.0" x2="800.0" y1="114" y2="340" stroke="#eb6834" stroke-width="2"/>
+<line x1="614.4" x2="669.9" y1="133.0" y2="133.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="642.2" cy="133.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="733.4" x2="775.1" y1="163.0" y2="163.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="754.3" cy="163.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="755.4" x2="791.5" y1="193.0" y2="193.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="773.5" cy="193.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="750.0" x2="786.6" y1="223.0" y2="223.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="768.3" cy="223.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="759.4" x2="792.8" y1="253.0" y2="253.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="776.1" cy="253.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="764.7" x2="800.0" y1="283.0" y2="283.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="784.1" cy="283.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="649.7" x2="710.0" y1="313.0" y2="313.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="679.8" cy="313.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="840.0" y="102.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600" font-family="system-ui, -apple-system, Segoe UI, sans-serif">What happens next</text>
+<line x1="840.0" x2="840.0" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="840.0" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0</text>
+<line x1="897.5" x2="897.5" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="897.5" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0.25</text>
+<line x1="955.0" x2="955.0" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="955.0" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0.5</text>
+<line x1="1012.5" x2="1012.5" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="1012.5" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">0.75</text>
+<line x1="1070.0" x2="1070.0" y1="114" y2="340" stroke="#e1e0d9"/>
+<text x="1070.0" y="358.0" font-size="11" fill="#898781" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif">1</text>
+<line x1="988.8" x2="988.8" y1="114" y2="340" stroke="#eb6834" stroke-width="2"/>
+<line x1="927.5" x2="962.9" y1="133.0" y2="133.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="945.2" cy="133.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="957.9" x2="988.2" y1="163.0" y2="163.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="973.1" cy="163.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="967.9" x2="999.4" y1="193.0" y2="193.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="983.7" cy="193.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="964.6" x2="991.5" y1="223.0" y2="223.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="978.1" cy="223.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="976.4" x2="1004.7" y1="253.0" y2="253.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="990.6" cy="253.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="977.6" x2="1008.7" y1="283.0" y2="283.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="993.1" cy="283.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<line x1="936.8" x2="971.0" y1="313.0" y2="313.0" stroke="#2a78d6" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+<circle cx="953.9" cy="313.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="300" cy="72" r="5" fill="#2a78d6"/>
+<text x="310.0" y="76.0" font-size="12" fill="#52514e" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">analyst average (bar = ~95% margin of error)</text>
+<line x1="600" x2="618" y1="72" y2="72" stroke="#eb6834" stroke-width="2"/>
+<text x="624.0" y="76.0" font-size="12" fill="#52514e" text-anchor="start" font-family="system-ui, -apple-system, Segoe UI, sans-serif">“nothing changes” rule</text>
+</svg>
