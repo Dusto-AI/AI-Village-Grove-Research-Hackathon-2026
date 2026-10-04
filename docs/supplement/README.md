@@ -15,5 +15,3 @@ harness.
 | [HORIZON.md](HORIZON.md) | anyone forecasting swarm behaviour | "Nothing changes" works until the working day ends |
 | [ERROR_FLAG.md](ERROR_FLAG.md) | builders | The dataset's error flag is 40–60% harmless output, and changes who looks like they're failing |
 | [ROSTER_SIZE.md](ROSTER_SIZE.md) | anyone scaling oversight | Bigger swarms: guessing degrades, the plain dashboard holds steady |
-
-Total model spend for this supplement: $8.36 (NOTES.md, Entry 19).

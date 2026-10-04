@@ -136,11 +136,10 @@ results/         published freeze times, summary tables, public answers/scores (
 
 ## How this was made
 
-Built solo, in about a day, with an AI coding agent doing most of the
-implementation. That is part of the point. The write-up's "Who checks the
-checker?" section describes what was verified mechanically, what wasn't,
-and a test of AI reviewers using planted errors. Model calls for the whole
-project cost about $18.
+Built in about a day by one person working with an AI coding agent, which
+did most of the implementation. That is part of the point. The write-up's
+"Who checks the checker?" section describes what was verified mechanically,
+what wasn't, and a test of AI reviewers using planted errors.
 
 ## Data and licence
 
