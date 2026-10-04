@@ -8,5 +8,8 @@ Event page: https://swarmchasing.com
 Work was done on a separate machine and is being ported here. Write-up and code to follow.
 
 ## Data
-The AI Village dataset is research-only and is **not included** in this repo. Code here expects it
-locally; see the code once it lands for paths.
+Built on the AI Village transcript dataset provided for the hackathon. The raw dataset is large and is
+not mirrored here; small derived files may be committed alongside the code that produces them.
+
+## Licence
+Code is MIT-licensed (see `LICENSE`).

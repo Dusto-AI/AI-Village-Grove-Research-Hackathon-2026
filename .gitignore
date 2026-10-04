@@ -1,4 +1,4 @@
-# Village data is research-only: never commit it
+# Raw dataset dumps are large: keep them out (small derived files are fine)
 data/
 *.parquet
 *.jsonl
