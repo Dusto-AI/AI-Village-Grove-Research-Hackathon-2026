@@ -1,0 +1,15 @@
+# Village data is research-only: never commit it
+data/
+*.parquet
+*.jsonl
+*.sqlite
+*.db
+
+# Secrets (API keys, the Delvetown agent key)
+.env
+*.key
+secrets/
+
+.DS_Store
+__pycache__/
+.venv/
